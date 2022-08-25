@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+
+$DesaturatedRed: hsl(0, 36%, 70%);
+$SoftRed: hsl(0, 93%, 68%);
+$DarkGrayishRed: hsl(0, 6%, 24%);
+$unit: 2rem;
+
+
+@mixin trassition {
+    transition: inear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+}
+@mixin trassition2 {
+    transition: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
+    ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+body{
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.card{
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    width: 100%;
+    padding: $unit;
+}
+.header--logo{
+    width: 50%;
+}
+.home--img{
+    width: 100%;
+    margin-bottom: $unit;
+}
+.home--info{
+    width: 100%;
+    text-align: center;
+    padding: 1.3rem;
+}
+.home--tittle{
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: $DesaturatedRed;
+    margin-bottom: 1rem;
+    letter-spacing: .5rem;
+}
+.home--tittle span{
+    font-weight: 400;
+    color: black;
+}
+.home--text{
+    color: $DesaturatedRed;
+    line-height: 1.2rem;
+    margin-bottom: $unit;
+}
+.home--input{
+    width: 100%;
+    position: relative;
+}
+.input--email{
+    width: 85%;
+    height: $unit;
+    border-radius: 2rem;
+    padding: 1.4rem;
+    border: 1px solid $DesaturatedRed;
+    color: $DesaturatedRed;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.3);
+}
+.erroInput{
+    border: 1px solid $SoftRed;
+}
+.btn-email{
+    padding: 1.3rem;
+    background-image: radial-gradient(circle at -14.41% 38.64%, #ffdbbd 0, #fed2b9 25%, #f2c9b5 50%, #e6c0b0 75%, #dbb8ac 100%);
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    width: 54px;
+    height: 47px;
+    right: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    cursor: pointer;
+}
+.iconError{
+    width: 20px;
+    position: absolute;
+    right: 88px;
+    top: 10px;
+}
+.infoError{
+    margin-top: 1rem;
+    font-size: .8rem;
+    color: $SoftRed;
+}
+.oculto{
+    display: none;
+}
