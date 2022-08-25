@@ -6,14 +6,6 @@ $SoftRed: hsl(0, 93%, 68%);
 $DarkGrayishRed: hsl(0, 6%, 24%);
 $unit: 2rem;
 
-
-@mixin trassition {
-    transition: inear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
-}
-@mixin trassition2 {
-    transition: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
-    ;
-}
 *{
     margin: 0;
     padding: 0;
@@ -97,7 +89,7 @@ body{
     width: 20px;
     position: absolute;
     right: 88px;
-    top: 15px;
+    top: 1px;
 }
 .infoError{
     margin-top: 1rem;
