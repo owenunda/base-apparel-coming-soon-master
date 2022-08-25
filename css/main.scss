@@ -97,13 +97,19 @@ body{
     width: 20px;
     position: absolute;
     right: 88px;
-    top: 10px;
+    top: 15px;
 }
 .infoError{
     margin-top: 1rem;
     font-size: .8rem;
     color: $SoftRed;
 }
+.infoCorrect{
+    margin-top: 1rem;
+    font-size: .9rem;
+    color: rgb(24, 207, 24);
+}
+
 .oculto{
     display: none;
 }

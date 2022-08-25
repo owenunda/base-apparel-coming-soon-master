@@ -97,13 +97,19 @@ body {
   width: 20px;
   position: absolute;
   right: 88px;
-  top: 10px;
+  top: 15px;
 }
 
 .infoError {
   margin-top: 1rem;
   font-size: 0.8rem;
   color: hsl(0deg, 93%, 68%);
+}
+
+.infoCorrect {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: rgb(24, 207, 24);
 }
 
 .oculto {
