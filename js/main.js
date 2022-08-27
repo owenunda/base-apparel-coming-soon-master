@@ -4,9 +4,10 @@ const buttonEmail = document.querySelector(".btn-email")
 const infoError = document.querySelector(".infoError")
 const imgError = document.querySelector(".iconError")
 const infoCorrect = document.querySelector(".infoCorrect")
+
+
+
 function validandoInfo() {
-
-
     buttonEmail.addEventListener("click", () =>{
     const infoEmail = inputEmail.value
     
