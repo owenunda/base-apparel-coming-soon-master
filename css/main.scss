@@ -27,6 +27,8 @@ body{
     width: 100%;
     height: 100vh;
     background-color: white;
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    
 }
 .header{
     width: 100%;
@@ -81,7 +83,7 @@ body{
 }
 .btn-email{
     padding: 1.3rem;
-    background-image: radial-gradient(circle at -14.41% 38.64%, #ffdbbd 0, #fed2b9 25%, #f2c9b5 50%, #e6c0b0 75%, #dbb8ac 100%);
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%),  hsl(0, 74%, 74%));
     border: none;
     border-radius: 50%;
     position: absolute;
